@@ -1,27 +1,30 @@
 <!DOCTYPE HTML>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>Zodiac Signs </title>
-<link rel="stylesheet" href="css_intro/normalize.css">
-<link rel="stylesheet" href="css_intro/style.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="{{ secure_asset('js/app.js') }}" defer></script>
+ <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+ <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet"> 
+ <link href="{{ secure_asset('css/main.css') }}" rel="stylesheet">
+ <title>@yield('title')</title>
+ <link rel="stylesheet" href="css/normalize.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel=”stylesheet” type=”text/css” href=”style.css”>
 </head>
+
 
 <body>
 <header>
-<a href="#" class="btn-push">log out</a>
-<div class="container">
-<div class="header-title-area">
-<h1 class="logo">star sign</h1>
+ <a href="#" class="btn-push">log out</a>
+ <div class="container">
+ <div class="header-title-area">
+ <h1 class="logo">star sign</h1>
 </div>
 </div>
 </header>
-</body>
-
-<h1 class="logo">ABOUT</h1>
-このサイトは、12星座についてのある程度正しい知識がつき、星座の間違った知識を解決できるように制作をしたサイトです。
-星座について興味がある人。星座について学習をしてる人。星座について知らない人。
-このサイトの閲覧を機に12星座について学んでくれることを切に願います。
 
 <footer>
 <ul class="footer-navigation">
