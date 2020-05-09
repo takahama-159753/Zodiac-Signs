@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//main.blade.php.のルーティング
+Route::group(['prefix' => 'admin'], function() {
+  Route::get('layouts/main', 'Admin\ZodiacsignsController@add');
+});

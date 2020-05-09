@@ -7,5 +7,9 @@ use App\Http\Controllers\Controller;
 
 class ZodiacsignsController extends Controller
 {
-    //
+  public function add()
+  {
+      return view('admin.zodiac_signs.main');
+  }
+
 }
