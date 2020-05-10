@@ -13,8 +13,8 @@
  <link rel="stylesheet" href="css/normalize.css">
  <link rel="stylesheet" href="css/style.css">
  <link rel=”stylesheet” type=”text/css” href=”style.css”>
+</div>
 </head>
-
 
 <body>
 <header>
@@ -25,6 +25,7 @@
 </div>
 </div>
 </header>
+</body>
 
 <footer>
 <ul class="footer-navigation">

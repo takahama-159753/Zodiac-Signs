@@ -11,5 +11,4 @@ class ZodiacsignsController extends Controller
   {
       return view('admin.zodiac_signs.main');
   }
-
 }
