@@ -1,53 +1,71 @@
-.box {
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-}
-
 button {
-  margin-right:60px;
+  margin-right:30px;
   float: right;
+  background: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  font-style: italic;
 }
 
 .container {
   width: 920px;
   margin: 0 auto 40px auto;
+  font-style: italic;
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0; 
 }
 
 .footer-title-area {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 00px;
+  padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
 
 .footer-navigation {
-  width: 100%;
-  background-color: #fff;
-  padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0; 
 }
 
 .footer-navigation:after {
-  clear: both;
-  display: block;
-  content: " ";
-  text-align: center;
-  padding: 30px 0;
+  position: relative;
+  left: -50%; 
+  float: left;
 }
 
 .footer-navigation li {
-  float: left;
-  padding: 0 30px;
+  display:inline-block;　
   text-align: center;
   list-style-type: none;
-  
 }
 
 .footer-navigation li a {
-  color: #333;
+  display:inline-block;
   text-decoration: none;
+   margin:50px;
+    padding: 0.5em 1em;
+    color: #5d627b;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    font-style: italic;
 }
 
-header {
+.header {
   margin-top: 20px;
+  float: right;
 }
 
 
