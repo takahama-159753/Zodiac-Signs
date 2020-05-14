@@ -31,7 +31,7 @@ footer {
     bottom: 0;
 }
 
-.footer-title-area {
+footer-title-area {
   margin-top: 30px;
   margin-bottom: 00px;
   padding: 0.5em 1em;
@@ -39,17 +39,18 @@ footer {
   color: #fff;
   border-top: solid 5px #5d627b;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  font-style: italic;
 }
 
 .footer-navigation {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-    position: absolute;
-    bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
 }
 
-.footer-navigation:after {
+footer-navigation:after {
   position: relative;
   left: -50%;
   float: left;
@@ -71,8 +72,10 @@ footer {
   font-style: italic;
 }
 
+
 header {
   margin-top: auto;
+  color: #fff;
 }
 
 
