@@ -13,61 +13,64 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel=”stylesheet” type=”text/css” href=”style.css”>
-  </div>
-</head>
-
-<body>
-  <header>
-    <button><a href="#" class="btn-push">logout</a></button>
-    <div class="container">
-      <div class="header-title-area">
-        <h1 class="logo">star sign</h1>
-      </div>
     </div>
-  </header>
+  </head>
   
-<title>@yield('title')</title>
-<main class="py-4">@yield('content') </main>
-
-<footer>
-  <ul class="footer-navigation">
-    <span>
-      <li>
-        <a href="#">PROFILE </a>
-      </li>
-    </span>
-    <span>
-      <li>
-        <a href="#">Zodiac Signs </a>
-      </li>
-    </span>
-    <span>
-      <li>
-        <a href="#">LINKS</a>
-      </li>
-    </span>
-    <span>
-      <li>
-        <a href="#">QUIZ</a>
-      </li>
-    </span>
-    <div id="app">
-      <nav class="navbar navbar-expand-md navbar-dark navbar-laravel">
-        <div class="container">
+  <body>
+    <header>
+      <button>
+        <a href="#" class="btn-push">logout</a>
+      </button>
+      <div class="container">
+      <div class="header-title-area">
+      <h1 class="logo">star sign</h1>
+      </div>
+      </div>
+    </header>
+    
+    <title>@yield('title')</title>
+    <main class="py-4">@yield('content') </main>
+    
+    <footer>
+      <ul class="footer-navigation">
+        <span>
+          <li>
+            <a href="#">PROFILE </a>
+          </li>
+        </span>
+        <span>
+          <li>
+            <a href="#">Zodiac Signs </a>
+          </li>
+        </span>
+        <span>
+          <li>
+            <a href="#">LINKS</a>
+          </li>
+        </span>
+        <span>
+          <li>
+            <a href="#">QUIZ</a>
+          </li>
+        </span>
+        
+        <div id="app">
+        <nav class="navbar navbar-expand-md navbar-dark navbar-laravel">
+          <div class="container">
           <a class="navbar-brand" href="{{ url('/') }}">{{ config('app.name', 'Laravel') }} </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav mr-auto"></ul>
-            <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ml-auto"></ul>
+          <!-- Left Side Of Navbar -->
+          <ul class="navbar-nav mr-auto"></ul>
+          <!-- Right Side Of Navbar -->
+          <ul class="navbar-nav ml-auto"></ul>
+           </div>
           </div>
-          </div>
-        </div>
-      </nav>
-    </footer>
+         </div>
+        </nav>
+      </footer>
     </body>
   </ul>
 </html>
