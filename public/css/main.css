@@ -18,9 +18,14 @@ body {
 
 container {
   width: 60px;
-  margin: 0 auto 40px auto;
+  margin: 0px auto 40px auto;
   font-style: italic;
-  color: #fff;
+  color: #FFFFFF;
+}
+
+col-md-8 {
+  font-style: italic;
+  color: #FFFFFF;
 }
 
 footer {
@@ -78,4 +83,8 @@ header {
   color: #fff;
 }
 
+.row {
+  font-style: italic;
+  color: #FFFFFF;
+}
 
