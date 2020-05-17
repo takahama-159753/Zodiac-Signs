@@ -15,9 +15,6 @@ body {
  background-position: center center;   /* 縦横中央 */
 }
 
-body-link {
-display: block
-}
 
 container {
   width: 60px;

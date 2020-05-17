@@ -9,16 +9,16 @@
 @section('content') 
 <link class="body-link">
 <span>
-  <b href="#">参考リンク</a>
+  <a href="#">参考リンク</a>
 </span>
 <span>
   <li>
-    <b href="#">tech boost</a>
+    <a href="#">tech boost</a>
   </li>
 </span>
 <span>
   <li>
-    < href="#">12星座早見表</a>
+    <a href="#">12星座早見表</a>
   </li>
 </span>
 </div>

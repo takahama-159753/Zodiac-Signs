@@ -8,7 +8,7 @@
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
- <img src="{{ secure_asset('img/large.jpg')}};" alt="background">
+<img src="{{ secure_asset('img/large.jpg')}}" alt="background" class="background-img">
   <div class="row">
     <div class="col-md-8 mx-auto">
       <h2>ABOUT</h2>
