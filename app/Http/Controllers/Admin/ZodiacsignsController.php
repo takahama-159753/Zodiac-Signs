@@ -12,3 +12,10 @@ class ZodiacsignsController extends Controller
       return view('admin.zodiac_signs.main');
   }
 }
+
+ public function edit()
+  {
+    return view('admin.zodiac_signs.index');
+  }
+
+}

@@ -81,6 +81,7 @@ footer-navigation:after {
 header {
   margin-top: auto;
   color: #fff;
+  font-style: italic;
 }
 
 .row {
