@@ -10,12 +10,10 @@ button {
 
 body {
  background-color: #000000;            /* 背景色 */
- background-image: url("css/large.jpg"); /* 画像 */
  background-size: cover;               /* 全画面 */
  background-attachment: fixed;         /* 固定 */
  background-position: center center;   /* 縦横中央 */
 }
-
 
 body-link {
 display: block
@@ -81,7 +79,6 @@ footer-navigation:after {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   font-style: italic;
 }
-
 
 header {
   margin-top: auto;

@@ -24,6 +24,3 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('layouts/main', 'Admin\ZodiacsignsController@add');
 });
 
-Route::group(['prefix' => 'admin'], function() {
-  Route::get('layouts/main', 'Admin\ZodiacsignsController@index');
-});
