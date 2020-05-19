@@ -2,10 +2,10 @@
 @extends('layouts.main')
 
 
-{{-- main.blade.phpの@yield('title')に'star sign'を埋め込む --}}
+{{-- link.blade.phpの@yield('title')に'star sign'を埋め込む --}}
 @section('title', 'star sign')
 
-{{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
+{{-- link.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <link class="body-link">
 <span>

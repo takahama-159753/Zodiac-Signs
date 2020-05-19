@@ -1,0 +1,83 @@
+button {
+  float: right;
+  position: relative;
+  margin-right:30px;
+  background: white;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  font-style: italic;
+}
+
+body {
+ background-color: #000000;            /* 背景色 */
+ background-size: cover;               /* 全画面 */
+ background-attachment: fixed;         /* 固定 */
+ background-position: center center;   /* 縦横中央 */
+}
+
+.background-img {
+  text-align: center;
+  position: absolute;
+}
+
+.body-link {
+text-align: center;
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+footer-title-area {
+  margin-top: 30px;
+  margin-bottom: 00px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #fff;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  font-style: italic;
+}
+
+.footer-navigation {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+footer-navigation:after {
+  position: relative;
+  left: -50%;
+  float: left;
+}
+
+.footer-navigation li {
+  display:inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+
+.footer-navigation li a {
+  display:inline-block;
+  text-decoration: none;
+  margin:50px;
+  padding: 0.5em 1em;
+  color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  font-style: italic;
+  
+}
+
+header {
+  margin-top: auto;
+  color: #fff;
+  font-style: italic;
+}
+

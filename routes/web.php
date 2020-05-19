@@ -24,3 +24,7 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('layouts/main', 'Admin\ZodiacsignsController@add');
 });
 
+//link.blade.php.のルーティング
+Route::group(['prefix' => 'admin'], function() {
+  Route::get('layouts/link', 'Admin\linkController@add');
+});
