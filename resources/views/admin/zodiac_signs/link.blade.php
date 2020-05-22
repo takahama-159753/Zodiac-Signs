@@ -1,16 +1,13 @@
-{{-- layouts/admin.blade.phpを読み込む --}}
-@extends('layouts.main')
+{{-- layouts/link.blade.phpを読み込む --}}
+@extends('layouts.link')
 
 
 {{-- link.blade.phpの@yield('title')に'star sign'を埋め込む --}}
-@section('title', 'star sign')
+@section('title', 'LINKS')
 
 {{-- link.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
-<link class="body-link">
-<span>
-  <a href="#">参考リンク</a>
-</span>
+<div class="link-title">参考リンク</div>
 <span>
   <li>
     <a href="#">tech boost</a>
@@ -19,6 +16,11 @@
 <span>
   <li>
     <a href="#">12星座早見表</a>
+  </li>
+</span>
+<span>
+  <li>
+    <a href="#">シンボルマークと誕生日の一覧</a>
   </li>
 </span>
 </div>
