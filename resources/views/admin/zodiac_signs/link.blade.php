@@ -23,5 +23,10 @@
     <a href="#">シンボルマークと誕生日の一覧</a>
   </li>
 </span>
+<span>
+  <li>
+    <a href="#">星座の歴史</a>
+  </li>
+</span>
 </div>
 @endsection
