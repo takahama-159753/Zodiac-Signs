@@ -9,7 +9,7 @@ class ZodiacsignsController extends Controller
 {
   public function add()
   {
-      return view('admin.zodiac_signs.main');
+      return view('admin.zodiac_signs.top');
   }
 }
 

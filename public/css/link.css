@@ -20,8 +20,6 @@ body {
   position: absolute;
 }
 
-
-
 container {
   width: 60px;
   margin: 0px auto 40px auto;
@@ -96,7 +94,7 @@ header {
   padding: 0px 0px;
 }
 
-.link-title{
+link-title{
  font-style: italic;
  text-align: center;
 }

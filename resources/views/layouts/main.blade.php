@@ -34,7 +34,7 @@
       <ul class="footer-navigation">
         <span>
           <li>
-            <a href="#">PROFILE </a>
+            <a href="{{url('admin/zodiac_signs/profile') }}">PROFILE </a>
           </li>
         </span>
         <span>
@@ -44,7 +44,7 @@
         </span>
         <span>
           <li>
-            <a href="#">LINKS</a>
+            <a href="{{url('admin/zodiac_signs/link') }}">LINKS</a>
           </li>
         </span>
         <span>

@@ -19,17 +19,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//main.blade.php.のルーティング
+
 Route::group(['prefix' => 'admin'], function() {
-  Route::get('layouts/main', 'Admin\ZodiacsignsController@add');
+  Route::get('zodiac_signs/top', 'Admin\ZodiacsignsController@add');
+  Route::get('zodiac_signs/link', 'Admin\linkController@add');
+  Route::get('zodiac_signs/profile', 'Admin\profileController@add');
 });
 
-//link.blade.php.のルーティング
-Route::group(['prefix' => 'admin'], function() {
-  Route::get('layouts/link', 'Admin\linkController@add');
-});
-
-//profile.blade.php.のルーティング
-Route::group(['prefix' => 'admin'], function() {
-  Route::get('layouts/profile', 'Admin\profileController@add');
-});

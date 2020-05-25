@@ -9,6 +9,6 @@ class profileController extends Controller
 {
   public function add()
   {
-      return view('admin.zodiac_signs.main');
+      return view('admin.zodiac_signs.profile');
   }
 }
