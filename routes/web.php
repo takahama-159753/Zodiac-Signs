@@ -28,3 +28,8 @@ Route::group(['prefix' => 'admin'], function() {
 Route::group(['prefix' => 'admin'], function() {
   Route::get('layouts/link', 'Admin\linkController@add');
 });
+
+//profile.blade.php.のルーティング
+Route::group(['prefix' => 'admin'], function() {
+  Route::get('layouts/profile', 'Admin\profileController@add');
+});
