@@ -94,12 +94,7 @@ header {
   padding: 0px 0px;
 }
 
-link-title{
- font-style: italic;
- text-align: center;
-}
-
-span {
- font-style: italic;
- text-align: center;
+.title{
+  font-style: italic;
+  font-size: 150%;
 }

@@ -7,8 +7,8 @@
 {{-- profile.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
+  <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
   <div class="row">
-    <img src="{{ secure_asset('img/vir.jpg')}}" alt="background" class="background-img">
     <div class="col-md-8 mx-auto">
       <p>初めまして。高浜真之介と申します。</p>
       <p>プログラミングに興味を持ち、techboostに入会しました。</p>

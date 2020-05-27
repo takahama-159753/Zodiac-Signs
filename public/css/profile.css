@@ -13,20 +13,14 @@ body {
  background-size: cover;               /* 全画面 */
  background-attachment: fixed;         /* 固定 */
  background-position: center center;   /* 縦横中央 */
- text-align: center;
- border: 1px solid #aaa;
-　padding: 20px 40px;
 }
 
 .background-img{
-  border: 1px solid #aaa;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  width: 200px;
-  height: 250px;
-  margin: 20px;
+  position: absolute;
 }
+
+
 
 container {
   width: 60px;
