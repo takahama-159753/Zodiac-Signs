@@ -39,7 +39,7 @@
         </span>
         <span>
           <li>
-            <a href="#">Zodiac Signs </a>
+            <a href="{{url('admin/zodiac_signs/birthday') }}">Zodiac Signs </a>
           </li>
         </span>
         <span>
