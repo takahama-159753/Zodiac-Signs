@@ -19,11 +19,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
 Route::group(['prefix' => 'admin'], function() {
   Route::get('zodiac_signs/top', 'Admin\ZodiacsignsController@add');
   Route::get('zodiac_signs/link', 'Admin\linkController@add');
   Route::get('zodiac_signs/profile', 'Admin\profileController@add');
   Route::get('zodiac_signs/birthday', 'Admin\birthdayController@add');
+  Route::get('zodiac_signs/zodiacsigns', 'Admin\zodiacsignsController@add');
 });
 
