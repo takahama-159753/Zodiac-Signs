@@ -27,3 +27,7 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('zodiac_signs/zodiacsigns', 'Admin\zodiacsignsController@add');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
