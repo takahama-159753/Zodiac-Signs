@@ -34,8 +34,9 @@ body {
   top: 50%;
   left: 50%;
   transform : translate(-50%,-50%);
-  width: 100px;
+  padding: 100px 300px;
   text-align: center;
+  margin-right:30px;
 }
 
 .col-md-8 {
@@ -43,8 +44,9 @@ body {
   top: 50%;
   left: 50%;
   transform : translate(-50%,-50%);
-  width: 100px;
+  padding: 100px 300px;
   text-align: center;
+  margin-left:30px;
 }
 
 footer {
@@ -108,7 +110,8 @@ header {
   top: 50%;
   left: 50%;
   transform : translate(-50%,-50%);
-  width: 100px;
+  padding: 100px 300px;
   text-align: center;
+  margin-right:30px;
 }
 
