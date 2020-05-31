@@ -12,7 +12,7 @@
   <div class="row">
     <div class="col-md-8 mx-auto">
           <input type="date" name="calendar" max="9999-12-31">
-          <input type="button" onclick="location.href='./zodiacsigns'" value="調べる">
+          <input type="button" onclick="location.href='./admin/zodiac_signs/zodiacsigns'" value="調べる">
     </div>
   </div>
 </div>
