@@ -1,6 +1,7 @@
 {{-- layouts/admin.blade.phpを読み込む --}}
 @extends('layouts.main')
 
+<link href="{{ secure_asset('css/zodiacsigns.css') }}" rel="stylesheet">{{-- css/zodiacsigns.cssを読み込む --}}
 {{-- main.blade.phpの@yield('title')に'zodiacsigns'を埋め込む --}}
 @section('title', 'zodiacsigns')
 
@@ -8,7 +9,6 @@
 @section('content') 
 <div class="container">
   <img src="{{ secure_asset('img/ohitujiza-illust5.png')}}" alt="background" class="background-img">
-  <link href="{{ secure_asset('css/zodiacsigns.css') }}" rel="stylesheet">{{-- css/zodiacsigns.cssを読み込む --}}
   <div class="row">
     <div class="col-md-8 mx-auto">
       <p>おひつじ座は古い星座なので、ギリシア神話にもその物語が伝えられています。</p>
