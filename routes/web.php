@@ -27,6 +27,8 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('zodiac_signs/zodiacsigns', 'Admin\seizaController@add');
   Route::get('zodiac_signs/cancer', 'Admin\cancerController@add');
   Route::get('zodiac_signs/taurus', 'Admin\taurusController@add');
+  Route::get('zodiac_signs/gemini', 'Admin\geminiController@add');
+  Route::get('zodiac_signs/leo', 'Admin\leoController@add');
 });
 
 
