@@ -29,6 +29,13 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('zodiac_signs/taurus', 'Admin\taurusController@add');
   Route::get('zodiac_signs/gemini', 'Admin\geminiController@add');
   Route::get('zodiac_signs/leo', 'Admin\leoController@add');
+  Route::get('zodiac_signs/virgo', 'Admin\virgoController@add');
+  Route::get('zodiac_signs/libra', 'Admin\libraController@add');
+  Route::get('zodiac_signs/scorpio', 'Admin\scorpioController@add');
+  Route::get('zodiac_signs/sagittarius', 'Admin\sagittariusController@add');
+  Route::get('zodiac_signs/capricorn', 'Admin\capricornController@add');
+  Route::get('zodiac_signs/aquarius', 'Admin\aquariusController@add');
+  Route::get('zodiac_signs/pisces', 'Admin\piscesController@add');
 });
 
 

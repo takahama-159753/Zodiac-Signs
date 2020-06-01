@@ -3,7 +3,7 @@
 
 
 {{-- main.blade.phpの@yield('title')に'zodiacsigns'を埋め込む --}}
-@section('title', 'zodiacsigns')
+@section('title', 'Cancer')
 
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
