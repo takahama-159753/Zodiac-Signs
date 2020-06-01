@@ -7,5 +7,8 @@ use App\Http\Controllers\Controller;
 
 class cancerController extends Controller
 {
-    //
+  public function add()
+  {
+      return view('admin.zodiac_signs.cancer');
+  }
 }

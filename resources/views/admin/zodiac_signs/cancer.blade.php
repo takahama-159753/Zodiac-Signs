@@ -8,7 +8,7 @@
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
-  <img src="{{ secure_asset('img/ohitujiza-illust5.png')}}" alt="background" class="background-img">
+  <img src="{{ secure_asset('img/kaniza-illust5.png')}}" alt="background" class="background-img">
   <div class="row">
     <div class="col-md-8 mx-auto">
       <p>ゼウスの子勇者ヘラクレス（ヘルクレス座）は、誤って自分の子を殺した罪を償うため、12の冒険を行うことになった。</p>
