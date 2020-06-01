@@ -1,16 +1,16 @@
 {{-- layouts/admin.blade.phpを読み込む --}}
 @extends('layouts.main')
 
-
 {{-- main.blade.phpの@yield('title')に'zodiacsigns'を埋め込む --}}
 @section('title', 'zodiacsigns')
 
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
+  <img src="{{ secure_asset('img/ohitujiza-illust5.png')}}" alt="background" class="background-img">
+  <link href="{{ secure_asset('css/zodiacsigns.css') }}" rel="stylesheet">{{-- css/zodiacsigns.cssを読み込む --}}
   <div class="row">
     <div class="col-md-8 mx-auto">
-      <img src="{{ secure_asset('img/Aries2.jpg')}}" alt="background" class="background-img">
       <p>おひつじ座は古い星座なので、ギリシア神話にもその物語が伝えられています。</p>
       <p>その物語によると、おひつじ座のモデルは、金の毛をもつ、空飛ぶ牡羊と言われています。</p>
       <p>この牡羊は、テッサリアの王・アタマスの息子・プリクソスと双子の妹・ヘレが、継母・イノーの企みによって生贄にされそうになったとき、</p>
