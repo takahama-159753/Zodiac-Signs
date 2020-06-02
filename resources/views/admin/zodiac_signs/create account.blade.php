@@ -2,7 +2,7 @@
 
 
 {{-- main.blade.phpの@yield('title')に'star sign'を埋め込む --}}
-@section('title', 'LOGIN')
+@section('title', 'CREATE ACCOUNT')
 
 @section('content')
     <div class="container">

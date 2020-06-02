@@ -76,7 +76,7 @@ footer-navigation:after {
 .footer-navigation li a {
   display:inline-block;
   text-decoration: none;
-  margin:50px;
+  margin:30px;
   padding: 0.5em 1em;
   color: #fff;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
@@ -88,6 +88,10 @@ header {
   margin-top: auto;
   color: #fff;
   font-style: italic;
+}
+
+form-group row{
+  text-align: center;
 }
 
 .row {

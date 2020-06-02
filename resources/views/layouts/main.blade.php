@@ -58,6 +58,10 @@
             <a href="{{url('admin/zodiac_signs/top') }}">TOP</a>
           </li>
         </span>
+        <li>
+            <a href="{{url('admin/zodiac_signs/createaccount') }}">CREATEACCOUNT</a>
+          </li>
+        </span>
         
         {{-- ログインしていなかったらログイン画面へのリンクを表示 --}} 
         <!-- Authentication Links -->

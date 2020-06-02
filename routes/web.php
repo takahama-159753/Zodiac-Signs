@@ -36,6 +36,7 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('zodiac_signs/capricorn', 'Admin\capricornController@add')->middleware('auth');
   Route::get('zodiac_signs/aquarius', 'Admin\aquariusController@add')->middleware('auth');
   Route::get('zodiac_signs/pisces', 'Admin\piscesController@add')->middleware('auth');
+  Route::get('zodiac_signs/createaccount', 'Admin\createaccountController@add');
 });
 
 
