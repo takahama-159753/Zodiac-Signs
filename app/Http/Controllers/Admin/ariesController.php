@@ -5,10 +5,10 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class seizaController extends Controller
+class ariesController extends Controller
 {
   public function add()
   {
-      return view('admin.zodiac_signs.zodiacsigns');
+      return view('admin.zodiac_signs.aries');
   }
 }
