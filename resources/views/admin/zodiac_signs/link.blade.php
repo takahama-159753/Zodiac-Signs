@@ -7,7 +7,7 @@
 <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
 <div class="row">
 <div class="col-md-8 mx-auto">
-<div class="title">参考リンク</div>
+<div class="title">参考リンク集</div>
 <span>
   <li>
     <a href="{{url('https://tech-boost.jp') }}">tech boost</a>
