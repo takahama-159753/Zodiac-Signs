@@ -8,9 +8,9 @@
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
-  <img src="{{ secure_asset('img/sasoriza-illust5.png')}}" alt="background" class="background-img">
   <div class="row">
     <div class="col-md-8 mx-auto">
+      <img src="{{ secure_asset('img/sasoriza-illust5.png')}}" alt="background" class="background-img">
       <p>ハンサムで力自慢なオリオンは、いつも「天下に自分にかなう者はいない」と自慢をしてはばからなかった。</p>
       <p>それを聞きつけた大地の神ガイアが、少し懲らしめようと、猛毒の蠍を仕向けた。</p>
       <p>すると、オリオンは蠍に刺され、あっけなく死んでしまった。そして、蠍とオリオンは共に星座として天に上げられたのだった。</p>

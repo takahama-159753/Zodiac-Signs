@@ -8,9 +8,9 @@
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
-  <img src="{{ secure_asset('img/iteza-illust5.png')}}" alt="background" class="background-img">
   <div class="row">
     <div class="col-md-8 mx-auto">
+      <img src="{{ secure_asset('img/iteza-illust5.png')}}" alt="background" class="background-img">
       <p>かつて、上半身が人間で下半身は馬というケンタウロス族がいた。</p>
       <p>荒くれ者な一族だったが、ケイローンは医学や音楽・狩猟にも通じた賢者であった。</p>
       <p>だがある時、ヘラクレスの放った毒矢がケイローンに刺さってしまう。しかし、不死身の体を持ったケイローンは苦しくとも死ぬことはできなかった。</p>

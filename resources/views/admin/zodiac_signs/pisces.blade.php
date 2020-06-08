@@ -8,9 +8,9 @@
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
-  <img src="{{ secure_asset('img/uoza-illust5.png')}}" alt="background" class="background-img">
   <div class="row">
     <div class="col-md-8 mx-auto">
+      <img src="{{ secure_asset('img/uoza-illust5.png')}}" alt="background" class="background-img">
       <p>昔、神々がナイル川のほとりで宴会を開いていた。</p>
       <p>羊飼いの守り神である牧神パンは角笛を吹いていた。</p>
       <p>そこに、突如として怪物テュポンが現れた。驚いた神々は姿を動物に変えて、皆逃げていった。</p>

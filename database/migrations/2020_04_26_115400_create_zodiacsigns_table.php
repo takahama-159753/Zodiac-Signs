@@ -15,7 +15,7 @@ class CreateZodiacsignsTable extends Migration
     {
         Schema::create('zodiacsigns', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('zodiac signs_ name');
+            $table->string('zodiacsigns_name');
             $table->string('start_date');
             $table->string('end_date');
             $table->string('body');

@@ -11,8 +11,6 @@
     <link href="{{ secure_asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ secure_asset('css/zodiacsigns.css') }}" rel="stylesheet">
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel=”stylesheet” type=”text/css” href=”style.css”>
     </div>
   </head>

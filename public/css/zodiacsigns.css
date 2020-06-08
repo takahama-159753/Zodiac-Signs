@@ -17,16 +17,14 @@ body {
 
 .background-img{
   text-align: center;
+  margin: 0px auto 40px auto;
   position: absolute;
+  width: 100%;
 }
 
-
-
 container {
-  width: 60px;
-  margin: 0px auto 40px auto;
-  font-style: italic;
-  color: #FFFFFF;
+  width: 100px;
+  margin: 40px auto 40px auto;
 }
 
 col-md-8 {
@@ -96,3 +94,6 @@ header {
   padding: 0px 0px;
 }
 
+.zodiactext{
+  position: absolute;
+}

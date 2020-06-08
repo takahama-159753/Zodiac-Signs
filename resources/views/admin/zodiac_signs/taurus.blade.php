@@ -8,9 +8,9 @@
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
-  <img src="{{ secure_asset('img/ohitujiza-illust5.png')}}" alt="background" class="background-img">
   <div class="row">
     <div class="col-md-8 mx-auto">
+       <img src="{{ secure_asset('img/ohitujiza-illust5.png')}}" alt="background" class="background-img">
       <p>バビロニア時代にはすでに牡牛の星座が設定されていたほど、歴史のある星座です。。</p>
       <p>また、ギリシャ時代には、アルデバランは「牛の目」とよばれ、プレアデス星団は“プレアデス”として独立した１つの星座でした。</p>
       <p>このおうし座とプレアデス座はプトレマイオスの48星座に含まれています。、</p>
