@@ -21,8 +21,6 @@ body {
   width: 100%;
 }
 
-
-
 container {
   width: 60px;
   margin: 0px auto 40px auto;
@@ -101,5 +99,7 @@ form-group row{
   padding: 0px 0px;
 }
 
-
-
+.link{
+  text-align: center;
+  width: 100%;
+}
