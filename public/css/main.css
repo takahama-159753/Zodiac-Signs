@@ -99,7 +99,13 @@ form-group row{
   padding: 0px 0px;
 }
 
-.link{
+link{
   text-align: center;
   width: 100%;
 }
+
+.background-img1{
+  text-align: center;
+  width: 100%;
+}
+

@@ -48,11 +48,6 @@
         </span>
         <span>
           <li>
-            <a href="#">QUIZ</a>
-          </li>
-        </span>
-        <span>
-          <li>
             <a href="{{url('admin/zodiac_signs/top') }}">TOP</a>
           </li>
         </span>

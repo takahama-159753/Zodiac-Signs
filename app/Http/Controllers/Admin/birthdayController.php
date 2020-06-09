@@ -12,3 +12,4 @@ class birthdayController extends Controller
       return view('admin.zodiac_signs.birthday');
   }
 }
+
