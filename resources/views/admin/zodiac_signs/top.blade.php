@@ -8,9 +8,9 @@
 {{-- main.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content') 
 <div class="container">
-<img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
   <div class="row">
     <div class="col-md-8 mx-auto">
+      <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
       <h2>ABOUT</h2>
       <p>このサイトは、12星座についてのある程度正しい知識がつき、星座の間違った知識を解決できるサイトです。</p>
       <p>星座について興味がある人。星座について学習をしてる人。星座について知らない人。</p>

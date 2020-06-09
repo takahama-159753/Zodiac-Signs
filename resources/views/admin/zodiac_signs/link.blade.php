@@ -4,9 +4,9 @@
 @section('title', 'LINKS') {{-- link.blade.phpの@yield('content')に以下のタグを埋め込む --}} 
 @section('content') 
 <div class="container">
-<img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
 <div class="row">
 <div class="col-md-8 mx-auto">
+<img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
 <div class="title">参考リンク集</div>
 <span>
   <li>

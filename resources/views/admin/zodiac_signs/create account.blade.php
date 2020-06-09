@@ -6,9 +6,9 @@
 
 @section('content')
     <div class="container">
-        <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
         <div class="row justify-content-center">
             <div class="col-md-8">
+            <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
                 <div class="login-box card">
 
                     <div class="login-body card-body">
