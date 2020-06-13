@@ -2,7 +2,7 @@
 
 
 {{-- main.blade.phpの@yield('title')に'star sign'を埋め込む --}}
-@section('title', 'LOGIN')
+@section('title', 'login')
 
 @section('content')
     <div class="container">
@@ -13,7 +13,7 @@
                     <div class="login-body card-body">
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
-
+                          
                             <div class="form-group row">
                                 <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 

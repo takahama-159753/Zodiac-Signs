@@ -18,7 +18,7 @@
   <body>
     <header>
       <button>
-        <a href="#" class="btn-push">logout</a>
+        <a href="{{url('admin/zodiac_signs/profile') }}" class="btn-push">logout</a>
       </button>
       <div class="container">
       <div class="header-title-area">
@@ -52,7 +52,7 @@
           </li>
         </span>
         <li>
-            <a href="{{url('admin/zodiac_signs/createaccount') }}">CREATEACCOUNT</a>
+            <a href="{{url('register') }}">CREATEACCOUNT</a>
           </li>
         </span>
         

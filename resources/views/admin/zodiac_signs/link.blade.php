@@ -1,7 +1,7 @@
 {{-- layouts/main.blade.phpを読み込む --}}
 @extends('layouts.main') {{-- link.blade.phpの@yield('LINKS')に'star sign'を埋め込む --}} 
 
-@section('title', 'LINKS') {{-- link.blade.phpの@yield('content')に以下のタグを埋め込む --}} 
+@section('title', 'links') {{-- link.blade.phpの@yield('content')に以下のタグを埋め込む --}} 
 @section('content') 
 <div class="container">
 <div class="row">
