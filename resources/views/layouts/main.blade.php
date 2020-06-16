@@ -18,7 +18,7 @@
   <body>
     <header>
       <button>
-        <a href="{{url('admin/zodiac_signs/profile') }}" class="btn-push">logout</a>
+        <a href="{{url('admin/zodiac_signs/TOP') }}" class="btn-push">logout</a>
       </button>
       <div class="container">
       <div class="header-title-area">
@@ -56,7 +56,6 @@
           </li>
         </span>
         
-        {{-- ログインしていなかったらログイン画面へのリンクを表示 --}} 
         <!-- Authentication Links -->
         @guest 
         <li>
@@ -64,17 +63,11 @@
         </li>
         @else {{-- ログインしていたらユーザー名とログアウトボタンを表示 --}} 
         <li class="nav-item dropdown">
-          <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>{{ Auth::user()->name }} 
+          <a id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>{{ Auth::user()->name }} 
             <span class="caret"></span>
           </a>　　　　　 
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                             document.getElementById('logout-form').submit();">{{ __('Logout') }} </a>
-          <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">@csrf </form>
-          </div>
         </li>
         @endguest 
-        {{-- 以上までを追記 --}}
         
         <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark navbar-laravel">
