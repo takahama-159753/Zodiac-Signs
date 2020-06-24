@@ -56,7 +56,6 @@
           </li>
         </span>
         
-        <!-- Authentication Links -->
         @guest 
         <li>
           <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
