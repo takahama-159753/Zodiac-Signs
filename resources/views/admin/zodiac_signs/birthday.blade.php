@@ -14,7 +14,7 @@
      <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img1">
       <div class="box1">
     <input type="date" name="calendar" max="9999-12-31">
-    <a href="{{url('admin/zodiac_signs/zodiacsigns')}}">調べる</a>
+    <form="{{url('admin/zodiac_signs/zodiacsigns')}}">調べる</a>
       </div>
      </div>
     </div>
