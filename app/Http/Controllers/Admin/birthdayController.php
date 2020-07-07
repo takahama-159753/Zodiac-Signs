@@ -12,7 +12,7 @@ class birthdayController extends Controller
         return view('admin.zodiac_signs.birthday');
     }
     
-    public function selcetZodiacsigns()
+    public function create()
     {
         $birthday = date("08/11");
         $url = "";
