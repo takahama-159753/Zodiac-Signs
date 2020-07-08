@@ -12,9 +12,9 @@ class birthdayController extends Controller
         return view('admin.zodiac_signs.birthday');
     }
     
-    public function create()
+    public function selcetZodiacsigns(Request $request)
     {
-        $birthday = date("08/11");
+        $birthday = date('m/d', strtotime($request->birthday));
         $url = "";
 
         //牡羊座の画面に飛ぶ
@@ -62,7 +62,7 @@ class birthdayController extends Controller
             $url =  "sagittarius";
         } 
         //山羊座の画面に飛ぶ
-        else if ($birthday > date("12/22") && $birthday < date("01/19") ){
+        else if ($birthday > date("12/22") && $birthday > date("01/19") ){
             $url =  "capricorn";
         } 
         //水瓶座の画面に飛ぶ
@@ -72,7 +72,10 @@ class birthdayController extends Controller
         //魚座の画面に飛ぶ
         else if ($birthday > date("02/19") && $birthday < date("03/20") ){ 
             $url =  "pisces";
-        } 
+        }else{
+            dd($birthday);
+            return redirect('admin/zodiac_signs/birthday');
+        }
         return view('admin.zodiac_signs.' . $url);
     }
 }

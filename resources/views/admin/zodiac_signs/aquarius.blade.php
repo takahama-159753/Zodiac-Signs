@@ -1,7 +1,6 @@
 {{-- layouts/admin.blade.phpを読み込む --}}
 @extends('layouts.main')
 
-
 {{-- main.blade.phpの@yield('title')に'zodiacsigns'を埋め込む --}}
 @section('title', 'Aquarius')
 

@@ -39,18 +39,7 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('zodiac_signs/createaccount', 'Admin\createaccountController@add');
   Route::get('zodiac_signs/zodiacsigns', 'Admin\birthdayController@selcetZodiacsigns');
   
-  Route::post('zodiac_signs/aries', 'Admin\ariesController@create');
-  Route::post('zodiac_signs/taurus', 'Admin\taurusController@create');
-  Route::post('zodiac_signs/gemini', 'Admin\geminiController@create');
-  Route::post('zodiac_signs/cancer', 'Admin\cancerController@create');
-  Route::post('zodiac_signs/leo', 'Admin\leoController@create');
-  Route::post('zodiac_signs/virgo', 'Admin\virgoController@create');
-  Route::post('zodiac_signs/libra', 'Admin\libraController@create');
-  Route::post('zodiac_signs/scorpio', 'Admin\scorpioController@create');
-  Route::post('zodiac_signs/sagittarius', 'Admin\sagittariusController@create');
-  Route::post('zodiac_signs/capricorn', 'Admin\capricornController@create');
-  Route::post('zodiac_signs/aquarius', 'Admin\aquariusController@create');
-  Route::post('zodiac_signs/pisces', 'Admin\piscesController@create');
+  Route::post('zodiac_signs/searchzodiacsigns', 'Admin\birthdayController@selcetZodiacsigns');
 });
 
 
