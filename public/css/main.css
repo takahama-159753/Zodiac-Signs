@@ -9,11 +9,10 @@
 }
 
 .body {
- background-color: #000000;            /* 背景色 */
- background-size: cover;               /* 全画面 */
- background-attachment: fixed;         /* 固定 */
- background-position: center center;   /* 縦横中央 */
- 
+  background-color: #000000;            /* 背景色 */
+  background-size: cover;               /* 全画面 */
+  background-attachment: fixed;         /* 固定 */
+  background-position: center center;   /* 縦横中央 */
 }
 
 .background-img{
@@ -27,11 +26,11 @@
 }
 
 .footer {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-    position: absolute;
-    bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-title-area {
@@ -73,7 +72,6 @@
   color: #fff;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   font-style: italic;
-  
 }
 
 .header {
@@ -90,6 +88,7 @@
   font-style: italic;
   color: #FFFFFF;
   padding: 0px 0px;
+  zoom: 125%
 }
 
 .box1{
@@ -119,4 +118,7 @@
   top: 50%;
   right: 50%;
   margin-left: -50%;
+}
+.box3{
+  zoom: 200%
 }

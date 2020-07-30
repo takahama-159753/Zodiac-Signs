@@ -18,7 +18,7 @@ class birthdayController extends Controller
         $url = "";
 
         //牡羊座の画面に飛ぶ
-        if ($birthday < date("03/21") && $birthday < date("04/19") ){
+        if ($birthday >= date("03/21") && $birthday <= date("04/19") ){
             $url = "aries";
         } 
         
@@ -62,7 +62,7 @@ class birthdayController extends Controller
             $url =  "sagittarius";
         } 
         //山羊座の画面に飛ぶ
-        else if ($birthday < date("12/22") && $birthday < date("01/20") ){
+        else if ($birthday > date("12/22") && $birthday < date("01/20") ){
             $url =  "capricorn";
         } 
         //水瓶座の画面に飛ぶ

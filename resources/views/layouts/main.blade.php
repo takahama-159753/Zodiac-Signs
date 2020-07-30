@@ -16,16 +16,20 @@
   </head>
   
   <body>
-    <header>
-      <button>
-        <a href="{{url('admin/zodiac_signs/TOP') }}" class="btn-push">logout</a>
-      </button>
-      <div class="container">
+  <header>
+    @guest
+    @else
+      <form id="logout-form" action="{{ route('logout') }}" method="POST">
+        <input type="submit" class="btn btn-primary" value="LOGOUT">
+        @csrf
+      </form>
+    @endguest
+    <div class="container">
       <div class="header-title-area">
-      <h1 class="logo">star sign</h1>
+        <h1 class="logo">star sign</h1>
       </div>
-      </div>
-    </header>
+    </div>
+  </header>
     
     <main class="py-4">@yield('content') </main>
     
@@ -53,6 +57,11 @@
         </span>
         <li>
             <a href="{{url('register') }}">CREATEACCOUNT</a>
+          </li>
+        </span>
+        <span>
+          <li>
+            <a href="{{url('admin/zodiac_signs/quiz') }}">QUIZ</a>
           </li>
         </span>
         
