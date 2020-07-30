@@ -11,8 +11,12 @@
     <div class="col-md-8">
       <div class="form-group row">
        <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img1">
-        <div class="box4">
+        <div class="box1">
           <h1 class=”title”>正解</h1>
+          <li>
+            <a href="{{url('admin/zodiac_signs/answer') }}">次の問題</a>
+          </li>
+          </span>
         </div>
       </div>
     </div>

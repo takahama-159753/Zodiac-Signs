@@ -13,8 +13,22 @@
        <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img1">
         <div class="box1">
           <h1 class=”title”>クイズ</h1>
+          <span>
+          <li>
+            <a href="{{url('admin/zodiac_signs/answer') }}">回答1</a>
+          </li>
+          </span>
+          <span>
+          <li>
+            <a href="{{url('admin/zodiac_signs/answer') }}">回答2</a>
+          </li>
+          </span>
+          <li>
+            <a href="{{url('admin/zodiac_signs/answer') }}">回答3</a>
+          </li>
+          </span>
         </div>
-        </div>
+       </div>
       </div>
     </div>
   </div>
