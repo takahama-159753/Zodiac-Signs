@@ -28,6 +28,7 @@ Route::group(['prefix' => 'admin'], function() {
     Route::get('zodiac_signs/createaccount', 'Admin\createaccountController@add');
     Route::get('zodiac_signs/zodiacsigns', 'Admin\birthdayController@selcetZodiacsigns');
     Route::get('zodiac_signs/quiz', 'Admin\quizController@add');
+    Route::get('zodiac_signs/answer', 'Admin\answerController@add');
     
     // 調べるボタン押下時用
     Route::post('zodiac_signs/searchzodiacsigns', 'Admin\birthdayController@selcetZodiacsigns');

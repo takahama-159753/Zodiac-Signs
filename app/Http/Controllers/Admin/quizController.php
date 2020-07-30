@@ -7,8 +7,9 @@ use App\Http\Controllers\Controller;
 
 class quizController extends Controller
 {
-  public function add()
+  public function add(Request $request)
   {
-      return view('admin.zodiac_signs.answer');
+      return view('admin.zodiac_signs.quiz');
   }
 }
+

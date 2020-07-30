@@ -15,16 +15,16 @@
           <h1 class=”title”>クイズ</h1>
           <span>
           <li>
-            <a href="{{url('admin/zodiac_signs/answer') }}">回答1</a>
+            <a href="{{url('admin/zodiac_signs/answer?ans=1') }}">回答1</a>
           </li>
           </span>
           <span>
           <li>
-            <a href="{{url('admin/zodiac_signs/answer') }}">回答2</a>
+            <a href="{{url('admin/zodiac_signs/answer?ans=2') }}">回答2</a>
           </li>
           </span>
           <li>
-            <a href="{{url('admin/zodiac_signs/answer') }}">回答3</a>
+            <a href="{{url('admin/zodiac_signs/answer?ans=3') }}">回答3</a>
           </li>
           </span>
         </div>
