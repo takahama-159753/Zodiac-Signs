@@ -19,8 +19,10 @@
   <header>
     @guest
     @else
+     <div class="box5">
       <form id="logout-form" action="{{ route('logout') }}" method="POST">
         <input type="submit" class="btn btn-primary" value="LOGOUT">
+      </div>
         @csrf
       </form>
     @endguest

@@ -5,7 +5,7 @@
 @section('content') 
 <div class="container">
 <div class="row">
-<div class="col-md-8 mx-auto">
+<div class="col-md-11 mx-auto">
   <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img">
 <div class="box2">
 <span>

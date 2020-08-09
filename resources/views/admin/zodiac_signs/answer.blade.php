@@ -8,7 +8,7 @@
 @section('content') ]
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-8">
+    <div class="col-md-11">
       <div class="form-group row">
        <img src="{{ secure_asset('img/image656-1280x800.jpg')}}" alt="background" class="background-img1">
         <div class="box1">

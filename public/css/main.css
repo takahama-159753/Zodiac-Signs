@@ -124,4 +124,11 @@
 }
 
 .box4{
+  zoom: 200%
+}
+
+.box5{
+  float: right;
+  position: relative;
+  margin-right:300px;
 }
